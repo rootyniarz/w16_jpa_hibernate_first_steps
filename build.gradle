@@ -32,6 +32,8 @@ dependencies {
     testAnnotationProcessor "org.projectlombok:lombok:$lombokVersion"
     testImplementation "org.junit.jupiter:junit-jupiter-api:$junitVersion"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
+
+    implementation "jakarta.persistence:jakarta.persistence-api:$jakartaPersistanceApiVersion"
 }
 
 test {
